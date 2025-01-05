@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: #222;
+}
+
+.resume {
+    display: flex;
+    flex-direction: row;
+    width: 210mm;
+    height: 297mm;
+    margin: 10mm auto;
+    background: #f4f4f4;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.sidebar {
+    width: 38%;
+    background-color: #000;
+    color: #fff;
+    padding: 20px 20px;
+    box-sizing: border-box;
+}
+
+.sidebar h3  {
+    border-bottom: 2px solid #444;
+    margin-bottom: 2px;
+    padding-bottom: 5px;
+    font-size: 1.2em;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0.5;
+    margin: 0;
+    
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+.sidebar ul li:hover {
+    color: red;
+    transform: translateX(5px);
+}
+
+.sidebar ul li i {
+    margin-right: 8px;
+    font-size: 1em;
+    color: #fff;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2.5px solid #fff;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+    margin-top: 30px;
+}
+
+.profile img:hover {
+    transform: scale(1.1) translateY(-5px);
+}
+
+
+.main {
+    width: 65%;
+    padding:  25px 20px;
+    box-sizing: border-box;
+}
+
+.name h1{
+    margin: 40px 0 5px;
+    font-size: 3.0em;
+}
+
+.name h2{
+    font-size: 2.0em;
+    align-items: center;
+    color: #aaa;
+}
+
+.main h3 {
+    border-bottom: 2px solid #333;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    font-size: 1.2em;
+}
+
+.main ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main ul li {
+    margin-bottom: 15px;
+    font-size: 0.95em;
+}
+
+.main ul li strong {
+    font-weight: bold;
+}
+
+.main ul li p {
+    margin: 5px 0 0 ;
+    line-height: 1.5;
+}
+
+section {
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
